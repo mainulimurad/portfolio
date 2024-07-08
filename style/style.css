@@ -6,6 +6,13 @@
 
 /* Nav style */
 
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -63,13 +70,15 @@ nav ul li a {
 
 .banner-content{
     max-width: 580px;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner .banner-content .subtitle{
     font-size: 45px;
     line-height: 50px;
     font-weight: 600;
-    color: #474747
+    color: #474747;
 }
 
 .banner .banner-content .banner-title{
@@ -81,6 +90,32 @@ nav ul li a {
     font-size: 18px;
 }
 
-.banner-profile-picture{
+.banner-button-group{
+    display: flex;
+}
+
+.banner-button-group .cv{
+    margin-right: 10px;
+}
+
+.banner-button-group .cv:hover{
+    cursor: pointer;
+}
+
+.banner-button-group .contact{
+    border-radius: 5px;
+	color: #fd6e0a;
+    background-color: #fff;
+    border: 1px solid #fd6e0a;
+    padding: 14px 39px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.banner-button-group .contact:hover{
+    cursor: pointer;
+}
+
+.banner .banner-profile-picture{
     width: 580px;
 }
