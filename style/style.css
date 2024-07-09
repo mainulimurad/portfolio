@@ -203,3 +203,54 @@ main{
     font-weight: 400;
     line-height: 28px;
 }
+
+/* resume section style */
+
+.resume{
+    padding-bottom: 40px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.resume-container .resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container .experience{
+    padding: 20px 0;
+}
+
+.resume-container .experience .experience-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    padding-bottom: 10px;
+}
+
+.resume-container .experience .experience-subtitle{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.resume-container .experience .experience-description{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.resume hr{
+    color: #474747;
+}
+
+.download-vc{
+    display: flex;
+    justify-content: center;
+}
