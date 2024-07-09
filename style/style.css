@@ -254,3 +254,39 @@ main{
     display: flex;
     justify-content: center;
 }
+
+/* footer section design */
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+footer .footer-column{
+    width: 50%;
+}
+
+footer .footer-heading{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+footer .footer-description{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-combine-upright: #474747;
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+}
